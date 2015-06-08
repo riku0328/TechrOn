@@ -21,6 +21,8 @@
 		EFB1A0CB1B1C7D24008F03F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB1A0AD1B1C7D24008F03F8 /* UIKit.framework */; };
 		EFB1A0D31B1C7D24008F03F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFB1A0D11B1C7D24008F03F8 /* InfoPlist.strings */; };
 		EFB1A0D51B1C7D24008F03F8 /* TechrOnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB1A0D41B1C7D24008F03F8 /* TechrOnTests.m */; };
+		EFB1A0E01B25B5A4008F03F8 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB1A0DF1B25B5A4008F03F8 /* GameViewController.m */; };
+		EFB1A0E31B25B5CF008F03F8 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB1A0E21B25B5CF008F03F8 /* ResultViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		EFB1A0D01B1C7D24008F03F8 /* TechrOnTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TechrOnTests-Info.plist"; sourceTree = "<group>"; };
 		EFB1A0D21B1C7D24008F03F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EFB1A0D41B1C7D24008F03F8 /* TechrOnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TechrOnTests.m; sourceTree = "<group>"; };
+		EFB1A0DE1B25B5A4008F03F8 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		EFB1A0DF1B25B5A4008F03F8 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		EFB1A0E11B25B5CF008F03F8 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		EFB1A0E21B25B5CF008F03F8 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 				EFB1A0BF1B1C7D24008F03F8 /* ViewController.m */,
 				EFB1A0C11B1C7D24008F03F8 /* Images.xcassets */,
 				EFB1A0B01B1C7D24008F03F8 /* Supporting Files */,
+				EFB1A0DE1B25B5A4008F03F8 /* GameViewController.h */,
+				EFB1A0DF1B25B5A4008F03F8 /* GameViewController.m */,
+				EFB1A0E11B25B5CF008F03F8 /* ResultViewController.h */,
+				EFB1A0E21B25B5CF008F03F8 /* ResultViewController.m */,
 			);
 			path = TechrOn;
 			sourceTree = "<group>";
@@ -249,8 +259,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFB1A0E01B25B5A4008F03F8 /* GameViewController.m in Sources */,
 				EFB1A0C01B1C7D24008F03F8 /* ViewController.m in Sources */,
 				EFB1A0BA1B1C7D24008F03F8 /* AppDelegate.m in Sources */,
+				EFB1A0E31B25B5CF008F03F8 /* ResultViewController.m in Sources */,
 				EFB1A0B61B1C7D24008F03F8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
