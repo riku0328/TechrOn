@@ -49,7 +49,7 @@
     if ([segue.identifier isEqualToString:@"mySegue"]) {
         ResultViewController  *resultVC=segue.destinationViewController;
         resultVC.answerString=numberLabel.text;
-        resultVC.inputString=numnerField.text;
+        resultVC.inputString=numberField.text;
     }
 }
 

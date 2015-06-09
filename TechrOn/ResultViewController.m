@@ -14,6 +14,9 @@
 
 @implementation ResultViewController
 
+@synthesize answerString;
+@synthesize inputString;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -27,8 +30,19 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    answerNumLabel.text=answerString;
+    inputNumLabel.text=inputString;
+    
+    if ([answerNumLabel .text isEqualToString:inputNumLabel.text]) {
+        inputNumLabel.textColor=[UIColor blackColor];
+    }else{
+        inputNumLabel.textColor=[UIColor redColor];
+    }
 }
 
+-(IBAction)back:(id)sender{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

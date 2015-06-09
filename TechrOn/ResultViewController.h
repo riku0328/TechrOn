@@ -8,7 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ResultViewController : UIViewController
+@interface ResultViewController : UIViewController<UINavigationBarDelegate>{
+    NSString *answerString;
+    NSString *inputString;
+    
+    IBOutlet UILabel *answerNumLabel;
+    IBOutlet UILabel *inputNumLabel;
+}
 
-@
+@property(nonatomic)NSString *answerString;
+@property(nonatomic)NSString *inputString;
+
+
+-(IBAction)back;
+
 @end

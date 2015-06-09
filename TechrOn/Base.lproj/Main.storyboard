@@ -94,6 +94,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="next" destination="Key-Do-lfC" eventType="touchUpInside" id="f03-S3-ToE"/>
                                     <segue destination="rQC-9E-Mws" kind="push" id="c6P-nh-Adr"/>
                                 </connections>
                             </button>
@@ -104,6 +105,9 @@
                                 <state key="normal" title="戻る">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="backToTop" destination="Key-Do-lfC" eventType="touchUpInside" id="VqS-oY-qzN"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6fY-Va-wfj">
                                 <rect key="frame" x="100" y="212" width="108" height="30"/>
@@ -115,6 +119,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Djd-Zf-QiD"/>
+                    <connections>
+                        <outlet property="numberField" destination="6fY-Va-wfj" id="75j-th-okH"/>
+                        <outlet property="numberLabel" destination="j93-xk-ipA" id="WXM-vj-e5m"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2gA-hn-L1p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
